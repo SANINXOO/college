@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap');
+.view-main{
+    width:65%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    border: 1px solid rgb(234, 232, 232);
+    margin: auto;
+    background-color: rgb(254, 254, 254);
+    height: auto;
+    margin-top: 5%;
+    border-radius: 7px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.registration-right{
+    background-color: rgb(59, 59, 59);
+    width: 60%;
+    height: auto;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: start;
+}
+.registration-left{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 100%;
+   text-align: start;
+    padding-right: 12px;
+    
+}
+.photo{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+   
+   
+}
+.sign-in-form-input{
+    margin-top: 10px;
+    margin-left: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sign-in-form-input label{
+    font-size: 13px;
+    font-weight: 600;
+}
+.sign-in-form-input input{
+    
+    width: 80%;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid #bababb;
+    height: 30px;
+    margin-bottom: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+    
+}
+.sign-in-form-right-input{
+    margin-top: 50px;
+    margin-left: 10%;
+
+}
+.sign-in-form-input input:focus{
+    outline: none;
+}
+.sign-in-form-right-input label{
+    font-size: 14px;
+    font-weight: 400;
+    color:#9fd0fbfa;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sign-in-form-right-input input{
+    background-color: transparent;
+    width: 80%;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid #bababb;
+    height: 30px;
+    margin-bottom: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+    
+}
+.sign-in-form-right-input textarea{
+    background-color: transparent;
+    width: 80%;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid #bababb;
+    height: 30px;
+    margin-bottom: 10px; 
+}
+.sign-in-form-right-input input:focus{
+    outline: none;
+}
+.sign-in-form-right-input textarea:focus{
+    outline: none;
+}
+
+.button{
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+}
+.photo input{
+   margin-top: 10px;
+    width: 100px;
+   
+}
+
+.name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.email2 span{
+    font-weight: 500;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+.registration-left span{
+    margin-left: 20px;
+}
+.phone2 span{
+    font-weight: 500;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.right-data{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-bottom: 15px;
+    width: 170px;
+}
+.button2 button{
+    background-color:#004e92 ;
+    border: 1px solid #004e92;
+    padding: 7px 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 87%;
+   
+}

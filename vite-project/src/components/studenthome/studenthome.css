@@ -1,0 +1,40 @@
+.stdhome{
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+.stdhomeleft{
+ /* background-color: aqua; */
+ width: 45%;
+ display: flex;
+ justify-content: center;
+}
+.stdhomeright{
+/* background-color: blue; */
+width: 55%;
+margin-right: 2%;
+}
+.stdhomeleft img{
+    width: 60%;
+    height: 270px;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 10px;
+
+}
+.loginbtn3{
+    border: 1.5px solid #004e92;
+	padding: 4px 8px;
+	border-radius: 20px;
+	background-color: transparent;
+	color: black;
+	font-weight: 600;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+.logoutlogo{
+    font-size: 17px;
+}

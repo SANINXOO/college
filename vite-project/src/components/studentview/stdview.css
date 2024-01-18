@@ -1,0 +1,13 @@
+.back{
+  
+   
+    margin: auto;
+}
+.back4{
+    /* margin-top: 20px; */
+    background-color: black;
+    border-radius: 50px;
+    width: 40px;
+    height: 20px;
+    color: white;
+}
